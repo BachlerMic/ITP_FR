@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 /**
  * Created by Michael on 10.03.2017.
  */
-public class Rechner            Test {
+public class RechnerTest {
     @Test
     public void fibonachiberechnen() throws Exception {
             Rechner r = new Rechner();
