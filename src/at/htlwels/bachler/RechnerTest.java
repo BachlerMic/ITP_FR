@@ -12,7 +12,7 @@ public class RechnerTest {
     public void fibonachiberechnen() throws Exception {
             Rechner r = new Rechner();
             int stelle = 7;
-            System.out.println("Die Zahl an der Stelle "+stelle+" ist "+r.fibonachiberechnen(stelle));
+            System.out.println("Die Zahl an der Stelle "+stelle+" ist "+r.fibonachiberechnen(stelle)+".");
     }
 
 }
