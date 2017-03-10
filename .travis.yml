@@ -1,5 +1,4 @@
 language: java
 sudo: false
 script:   
- - javac RechnerTest
- - java RechnerTesT
+ ant RechnerTest
