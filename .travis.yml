@@ -6,7 +6,4 @@ language: java
 sudo: false
 script:   
  - javac RechnerTest
- - java RechnerTest
- 
-before_install:
- - cd java
+ - java RechnerTesT
