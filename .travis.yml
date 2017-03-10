@@ -1,5 +1,4 @@
 language: java
 sudo: false
-script: 
-  - javac RechnerTest
-  - java RechnerTest
+script:   
+  mvn test -f ./src/at/htlwels/bachler/RechnerTest.java
