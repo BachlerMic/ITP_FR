@@ -1,5 +1,5 @@
 language: java
 java -classpath junit.jar;hamcrest-core.jar RechnertestTest
-script:
+script: 
   - javac RechnertestTest
   - java RechnertestTest
