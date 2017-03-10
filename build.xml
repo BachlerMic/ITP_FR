@@ -175,7 +175,7 @@
   </target>
   
   <target name="compile.module.rechner.tests" depends="compile.module.rechner.production" description="compile module Rechner; test classes" unless="skip.tests"/>
-  <target name="RechnerTest" depends="src/at/htlwels/bachler/RechnerTest.java" description="compile module Rechner; test classes" unless="skip.tests"/>
+  <target name="RechnerTest" depends="src/at/htlwels/bachler/RechnerTest" description="compile module Rechner; test classes" unless="skip.tests"/>
   
   <target name="clean.module.rechner" description="cleanup module">
     <delete dir="${rechner.output.dir}"/>
